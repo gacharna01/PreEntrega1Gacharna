@@ -1,3 +1,8 @@
+function saludar(){
+    console.log("Bienvenido a nuestra tienda virtual");   
+}
+saludar();
+
 const productos = [
     {nombre: "Hoodie", precio: 120},
     {nombre: "Oversize negra", precio: 100},
@@ -8,7 +13,7 @@ let carrito = []
 let seleccion = prompt("Deseas comprar algún producto, escribe si o no")
 
 while(seleccion != "si" && seleccion != "no"){
-    prompt("Por favor escribir si o no")
+    selection=prompt("Por favor escribir si o no")
 }
 
 if(seleccion == "si"){
